@@ -7,7 +7,7 @@ When doing these tasks, we recommend using console.log to test the output of you
 This will usually entail console logging the answer directly or console logging the invocation (call) of the function so when it
 returns a value, that value will be logged to the console.  An example of this would be:  console.log(theFunction(value1,value2))
 */
-Hi hi hi I was sick gonna try to push it and then go back to sleep and finish it before class in earnest.
+
 /*
 Task 1a - Voting Age
 
@@ -17,6 +17,18 @@ Do the following:
 
    HINT: no function required
 */
+const votingAge = 18;
+
+  if (votingAge >= 18) {
+
+    console.log(true);
+
+    }
+  else {
+  
+  console.log(false);
+
+ }
 
 
 
@@ -30,6 +42,10 @@ Do the following:
 
    HINT: no function required
 */
+let chicken = 2;
+var beef = 3;
+if (beef >= 4)  {console.log('false')}
+else if (beef => 2) {console.log('true')}
 
 
 
@@ -44,9 +60,18 @@ Do the following:
    3. Console log the result
 
    HINT: look up the Number method
+
 */
+let birthYear = "1999";
+birthYear.toString();
+(1999).toString();
+(1900+999).toString
+console.log('')
 
-
+let x = 123;
+x.toString();            // returns 123 from variable x
+(123).toString();        // returns 123 from literal 123
+(100 + 23).toString()
 
 
 /*
@@ -58,10 +83,11 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b){
+  console.log(a * b);
+  multiply(3,8)
   }
-
+ 
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -74,10 +100,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+ function dogYears(x,y){
+    console.log(x * y)
+    multiply(x,7)
 }
-
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
